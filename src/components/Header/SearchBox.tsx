@@ -12,7 +12,6 @@ export function SearchBox() {
     const searchInputRef = useRef<HTMLInputElement>(null);
 
     console.log(searchInputRef.current?.value);
-    searchInputRef.current?.focus();  // interface imperativa
 
     return (
         <Flex
